@@ -1,0 +1,12 @@
+body {
+  background-color: #1e1e1e;
+  color: white;
+  margin: 0;
+}
+
+footer {
+  background-color: #161515;
+  text-align: center;
+  padding: 20px;
+  height: 20px;
+}
