@@ -1,7 +1,6 @@
 body {
   background-color: #1e1e1e;
   color: white;
-  margin: 0;
 }
 
 footer {
@@ -10,6 +9,31 @@ footer {
   height: 20px;
 }
 .footerContents {
-  width: 205px;
-  margin-left: calc((100% / 2) - 102.5px);
+  width: 201px;
+  margin-left: calc((100% / 2) - 100.5px);
+}
+.name {
+  width: 254px;
+  margin-left: calc((100% / 2) - 127px);
+  margin-top: 2rem;
+}
+nav a {
+  background-color: #3d3c3c;
+  text-decoration: none;
+  color: white;
+  margin: 70px;
+  padding: 12px;
+  border-radius: 25px;
+}
+nav {
+  margin-top: 30px;
+  width: 1200;
+  margin-left: calc((100% / 2) - 724px);
+}
+.section {
+  margin-left: 22%;
+}
+img {
+  width: 200px;
+  margin-left: calc((100% / 2) - 100px);
 }
