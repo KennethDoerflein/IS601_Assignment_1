@@ -6,7 +6,10 @@ body {
 
 footer {
   background-color: #161515;
-  text-align: center;
   padding: 20px;
   height: 20px;
+}
+.footerContents {
+  width: 205px;
+  margin-left: calc((100% / 2) - 102.5px);
 }
