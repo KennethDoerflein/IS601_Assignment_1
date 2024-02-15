@@ -17,23 +17,27 @@ footer {
   margin-left: calc((100% / 2) - 127px);
   margin-top: 2rem;
 }
-nav a {
-  background-color: #3d3c3c;
-  text-decoration: none;
-  color: white;
-  margin: 1rem;
-  padding: 12px;
-  border-radius: 25px;
-}
-nav {
-  margin-top: 30px;
-  width: 732px;
-  margin-left: calc((100% / 2) - 366px);
-}
 .section {
   margin-left: 22%;
 }
 img {
   width: 200px;
   margin-left: calc((100% / 2) - 100px);
+}
+.navbar {
+  margin-top: 30px;
+  width: 732px;
+  margin-left: calc((100% / 2) - (366px + 2.8rem));
+}
+.navbar .navElement {
+  display: inline;
+  list-style: none;
+}
+.navElement a {
+  background-color: #3d3c3c;
+  text-decoration: none;
+  color: white;
+  margin: 1rem;
+  padding: 12px;
+  border-radius: 25px;
 }
