@@ -2,7 +2,6 @@ body {
   background-color: #1e1e1e;
   color: white;
 }
-
 footer {
   background-color: #161515;
   padding: 20px;
@@ -27,7 +26,7 @@ img {
 .navbar {
   margin-top: 30px;
   width: 732px;
-  margin-left: calc((100% / 2) - (366px + 2.8rem));
+  margin-left: calc((100% / 2) - (366px + 2.5rem));
 }
 .navbar .navElement {
   display: inline;
