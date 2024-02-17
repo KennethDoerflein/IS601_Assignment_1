@@ -4,8 +4,8 @@ body {
 }
 footer {
   background-color: #161515;
-  padding: 20px;
-  height: 20px;
+  padding: 30px;
+  height: 50px;
 }
 .footerContents {
   width: 201px;
@@ -95,10 +95,23 @@ img {
 a {
   color: white;
 }
+a:hover {
+  color: #d81515;
+}
 .insetList {
   padding-left: 25px;
   list-style: circle;
 }
 .section li {
   padding: 5px;
+}
+.githubLogo {
+  margin-top: 10px;
+  height: 50px;
+  width: 51px;
+  margin-left: calc(100% / 2 - 25.5px);
+  fill: white;
+}
+.githubLogo:hover {
+  fill: red;
 }
