@@ -115,3 +115,6 @@ a:hover {
 .githubLogo:hover {
   fill: red;
 }
+.edInset {
+  padding-left: 10px;
+}
