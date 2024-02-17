@@ -9,7 +9,7 @@ footer {
 }
 .footerContents {
   width: 201px;
-  margin-left: calc((100% / 2) - 100.5px);
+  margin-left: calc((100% / 2) - 100px);
 }
 .name {
   width: 254px;
@@ -19,14 +19,27 @@ footer {
 .section {
   margin-left: 22%;
 }
+.section h1 {
+  text-decoration: wavy;
+  text-decoration-line: underline;
+  text-decoration-color: #d81515;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 2px;
+}
 img {
   width: 200px;
   margin-left: calc((100% / 2) - 100px);
 }
 .navbar {
   margin-top: 30px;
-  width: 732px;
-  margin-left: calc((100% / 2) - (366px + 2.5rem));
+  width: 780px;
+  margin-left: calc((100% / 2) - (380px + 2.5rem));
+}
+.nav {
+  background-color: #3d3c3c;
+  margin: 0px;
+  padding: 10px;
+  margin: -20px -8px 0px -8px;
 }
 .navbar .navElement {
   display: inline;
@@ -39,4 +52,57 @@ img {
   margin: 1rem;
   padding: 12px;
   border-radius: 25px;
+  font-weight: bolder;
+}
+.navElement a:hover {
+  color: #d81515;
+}
+.skill {
+  background-color: #d81515;
+  color: white;
+  border-radius: 30px;
+  padding: 1px;
+  margin-left: -1px;
+}
+.skillOutline {
+  /* display: inline-block; */
+  background-color: #d4d4d4;
+  border-radius: 30px;
+  width: 300px;
+  height: 20px;
+  /* margin-left: 25px; */
+  margin: 8px 0px 16px 0px;
+}
+.skillList {
+  font-size: 16px;
+}
+.html {
+  width: 75%;
+}
+.js {
+  width: 30%;
+}
+.java {
+  width: 75%;
+}
+.c {
+  width: 60%;
+}
+.python {
+  width: 50%;
+}
+.php {
+  width: 75%;
+}
+.css {
+  width: 30%;
+}
+.bs {
+  width: 50%;
+}
+.sql {
+  width: 50%;
+}
+.percentage {
+  padding-left: calc(50% - 16px);
 }
