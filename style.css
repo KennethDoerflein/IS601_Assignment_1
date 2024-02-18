@@ -50,7 +50,8 @@ img {
   text-decoration: none;
   color: white;
   margin: 1rem;
-  padding: 12px;
+  /* padding: 12px; */
+  padding: 27px;
   border-radius: 25px;
   font-weight: bolder;
 }
@@ -99,7 +100,7 @@ a:hover {
   color: #d81515;
 }
 .insetList {
-  padding-left: 25px;
+  margin-left: 25px;
   list-style: circle;
 }
 .section li {
@@ -116,5 +117,5 @@ a:hover {
   fill: red;
 }
 .edInset {
-  padding-left: 10px;
+  margin-left: 10px;
 }
