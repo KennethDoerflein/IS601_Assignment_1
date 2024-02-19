@@ -5,12 +5,13 @@ body {
 footer {
   background-color: #161515;
   padding: 30px;
-  height: 70px;
+  height: 95px;
   margin: 0px -8px -8px -8px;
 }
 .footerContents {
   width: 201px;
   margin-left: calc((100% / 2) - 100px);
+  color: #d4d4d4;
 }
 .name {
   width: 254px;
@@ -33,7 +34,7 @@ img {
 .navbar {
   margin-top: 30px;
   width: 780px;
-  margin-left: calc((100% / 2) - (380px + 2.5rem));
+  margin-left: calc((100% / 2) - (380px + 2rem));
 }
 .navBox {
   background-color: #3d3c3c;
@@ -118,7 +119,7 @@ a:hover {
   height: 50px;
   width: 51px;
   margin-left: calc(100% / 2 - 62px);
-  fill: white;
+  fill: #d4d4d4;
 }
 .githubLogo:hover {
   fill: #d81515;
@@ -127,7 +128,7 @@ a:hover {
   margin: 5px 5px 5px 20px;
   height: 50px;
   width: 51px;
-  fill: white;
+  fill: #d4d4d4;
 }
 .gmailLogo:hover {
   fill: #d81515;
