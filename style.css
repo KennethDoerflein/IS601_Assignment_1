@@ -140,6 +140,7 @@ a:hover {
 #projects li p {
   display: inline;
   line-height: 25px;
+  padding-left: 0.2rem;
 }
 #projects li {
   max-width: 64rem;
