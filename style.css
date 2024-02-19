@@ -23,7 +23,7 @@ footer {
 .section h1 {
   /* text-decoration: wavy; */
   text-decoration-line: underline;
-  text-decoration-color: #ce0606;
+  text-decoration-color: white;
   text-underline-offset: 8px;
   text-decoration-thickness: 2px;
 }
@@ -96,9 +96,13 @@ img {
 }
 a {
   color: white;
+  text-decoration-color: #d81515;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
 }
 a:hover {
   color: #d81515;
+  text-decoration-color: white;
 }
 .insetList {
   margin-left: 25px;
@@ -115,7 +119,7 @@ a:hover {
   fill: white;
 }
 .githubLogo:hover {
-  fill: red;
+  fill: #d81515;
 }
 .gmailLogo {
   margin: 5px 5px 5px 20px;
@@ -124,11 +128,20 @@ a:hover {
   fill: white;
 }
 .gmailLogo:hover {
-  fill: red;
+  fill: #d81515;
 }
 .edInset {
   margin-left: 10px;
 }
 .footerContents a {
   color: transparent;
+  text-decoration: none;
+}
+#projects li p {
+  display: inline;
+  line-height: 25px;
+}
+#projects li {
+  max-width: 64rem;
+  padding-right: 8rem;
 }
