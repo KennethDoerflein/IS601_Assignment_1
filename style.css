@@ -5,7 +5,8 @@ body {
 footer {
   background-color: #161515;
   padding: 30px;
-  height: 50px;
+  height: 70px;
+  margin: 0px -8px -8px -8px;
 }
 .footerContents {
   width: 201px;
@@ -107,15 +108,27 @@ a:hover {
   padding: 5px;
 }
 .githubLogo {
-  margin-top: 10px;
+  margin: 0px 0px -6px 0px;
   height: 50px;
   width: 51px;
-  margin-left: calc(100% / 2 - 25.5px);
+  margin-left: calc(100% / 2 - 62px);
   fill: white;
 }
 .githubLogo:hover {
   fill: red;
 }
+.gmailLogo {
+  margin: 5px 5px 5px 20px;
+  height: 50px;
+  width: 51px;
+  fill: white;
+}
+.gmailLogo:hover {
+  fill: red;
+}
 .edInset {
   margin-left: 10px;
+}
+.footerContents a {
+  color: transparent;
 }
