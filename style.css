@@ -36,7 +36,7 @@ img {
   width: 780px;
   margin-left: calc((100% / 2) - (380px + 2.5rem));
 }
-.nav {
+.navBox {
   background-color: #3d3c3c;
   margin: 0px;
   padding: 10px;
