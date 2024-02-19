@@ -91,8 +91,12 @@ img {
 .p50 {
   width: 50%;
 }
+.p10 {
+  width: 10%;
+  padding: 1px 3px 1px 3px;
+}
 .percentage {
-  padding-left: calc(50% - 16px);
+  margin-left: calc(50% - 16px);
 }
 a {
   color: white;
