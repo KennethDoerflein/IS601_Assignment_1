@@ -6,7 +6,7 @@ footer {
   background-color: #161515;
   padding: 30px;
   height: 95px;
-  margin: 0px -8px -8px -8px;
+  margin: 100px -8px -8px -8px;
 }
 .footerContents {
   width: 201px;
@@ -154,8 +154,27 @@ a:hover {
   margin-left: 1rem;
 }
 #objective p {
-  margin-left: -1rem;
+  margin-left: 1.5rem;
   max-width: 47rem;
   padding-right: 8rem;
   text-align: justify;
+}
+#contact p {
+  margin-left: 1.5rem;
+  max-width: 47rem;
+  padding-right: 8rem;
+}
+#mailIcon {
+  width: 30px;
+  height: 22px;
+  fill: white;
+  margin-right: 2px;
+}
+#smallGithubLogo {
+  fill: white;
+  margin: 10px 5px 0px -3px;
+}
+#loc {
+  fill: white;
+  margin: 22px 15px 0px 4px;
 }
