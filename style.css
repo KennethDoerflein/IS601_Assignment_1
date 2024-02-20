@@ -149,7 +149,6 @@ a:hover {
 #projects li {
   max-width: 47rem;
   padding-right: 8rem;
-  text-align: justify;
 }
 .inset {
   margin-left: 1rem;
@@ -158,7 +157,6 @@ a:hover {
   margin-left: 1.5rem;
   max-width: 47rem;
   padding-right: 8rem;
-  text-align: justify;
 }
 #contact p {
   margin-left: 1.5rem;
