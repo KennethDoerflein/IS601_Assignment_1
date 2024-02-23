@@ -21,7 +21,7 @@ footer {
 .name {
   width: 254px;
   margin-left: calc((100% / 2) - 127px);
-  margin-top: 8rem;
+  margin-top: 3rem;
 }
 .section {
   scroll-margin-top: 75px;
@@ -50,7 +50,7 @@ img {
   position: sticky;
   background-color: #3d3c3c;
   padding: 1px 10px 10px 10px;
-  margin: -80px -8px 0px -8px;
+  margin: -8px -8px 0px -8px;
   top: 0;
 }
 .navbar .navElement {
