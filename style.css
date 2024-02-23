@@ -1,5 +1,7 @@
 html {
   scroll-behavior: smooth;
+  scrollbar-color: red;
+  scrollbar-width: 50px;
 }
 body {
   background-color: #1e1e1e;
@@ -19,7 +21,7 @@ footer {
 .name {
   width: 254px;
   margin-left: calc((100% / 2) - 127px);
-  margin-top: 2rem;
+  margin-top: 8rem;
 }
 .section {
   scroll-margin-top: 75px;
@@ -32,8 +34,10 @@ footer {
   text-decoration-thickness: 2px;
 }
 img {
-  width: 180px;
-  margin-left: calc((100% / 2) - 90px);
+  margin-top: 1.5rem;
+  width: 128px;
+  margin-left: calc((100% / 2) - 64px);
+  border-radius: 30px;
 }
 .navbar {
   position: sticky;
