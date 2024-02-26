@@ -189,3 +189,12 @@ a:hover {
   fill: white;
   margin: 22px 15px 0px 4px;
 }
+.company {
+  display: inline;
+  font-size: small;
+}
+.workYear {
+  display: inline;
+  font-size: smaller;
+  color: #b4b2b2;
+}
