@@ -34,7 +34,7 @@ footer {
   text-decoration-thickness: 2px;
 }
 img {
-  margin-top: 1.5rem;
+  margin-top: 0.5rem;
   width: 128px;
   margin-left: calc((100% / 2) - 64px);
   border-radius: 30px;
